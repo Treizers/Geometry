@@ -11,7 +11,7 @@ int main()
     float rad = 0;
     int x = 0, y = 0;
 
-    cin » rad » x » y;
+    cin >> rad >> x >> y;
 
     RenderWindow window(VideoMode(800, 800), "Geometry", Style::Default);
     window.setFramerateLimit(60);
